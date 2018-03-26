@@ -1,0 +1,1212 @@
+
+After insertion, size of AVL tree: 300
+
+Largest Element: 9988
+
+Smallest Element: 40
+
+BFS Traversal
+Node: 5773 Height: 9 Parent: 0
+Node: 2378 Height: 8 Parent: 5773
+Node: 7815 Height: 7 Parent: 5773
+Node: 1011 Height: 6 Parent: 2378
+Node: 4000 Height: 7 Parent: 2378
+Node: 6484 Height: 6 Parent: 7815
+Node: 9211 Height: 6 Parent: 7815
+Node: 262 Height: 5 Parent: 1011
+Node: 1747 Height: 5 Parent: 1011
+Node: 3303 Height: 5 Parent: 4000
+Node: 4909 Height: 6 Parent: 4000
+Node: 6342 Height: 4 Parent: 6484
+Node: 7159 Height: 5 Parent: 6484
+Node: 8705 Height: 5 Parent: 9211
+Node: 9631 Height: 5 Parent: 9211
+Node: 117 Height: 3 Parent: 262
+Node: 630 Height: 4 Parent: 262
+Node: 1242 Height: 4 Parent: 1747
+Node: 1977 Height: 4 Parent: 1747
+Node: 2722 Height: 4 Parent: 3303
+Node: 3697 Height: 4 Parent: 3303
+Node: 4402 Height: 5 Parent: 4909
+Node: 5176 Height: 5 Parent: 4909
+Node: 6126 Height: 3 Parent: 6342
+Node: 6464 Height: 2 Parent: 6342
+Node: 6803 Height: 4 Parent: 7159
+Node: 7401 Height: 4 Parent: 7159
+Node: 8301 Height: 4 Parent: 8705
+Node: 9085 Height: 3 Parent: 8705
+Node: 9465 Height: 4 Parent: 9631
+Node: 9958 Height: 3 Parent: 9631
+Node: 65 Height: 1 Parent: 117
+Node: 189 Height: 2 Parent: 117
+Node: 315 Height: 3 Parent: 630
+Node: 736 Height: 3 Parent: 630
+Node: 1103 Height: 3 Parent: 1242
+Node: 1507 Height: 3 Parent: 1242
+Node: 1856 Height: 3 Parent: 1977
+Node: 2261 Height: 3 Parent: 1977
+Node: 2610 Height: 3 Parent: 2722
+Node: 2851 Height: 3 Parent: 2722
+Node: 3471 Height: 3 Parent: 3697
+Node: 3871 Height: 2 Parent: 3697
+Node: 4170 Height: 4 Parent: 4402
+Node: 4689 Height: 3 Parent: 4402
+Node: 5019 Height: 3 Parent: 5176
+Node: 5436 Height: 4 Parent: 5176
+Node: 5883 Height: 2 Parent: 6126
+Node: 6285 Height: 2 Parent: 6126
+Node: 6369 Height: 1 Parent: 6464
+Node: 6468 Height: 0 Parent: 6464
+Node: 6673 Height: 3 Parent: 6803
+Node: 6928 Height: 3 Parent: 6803
+Node: 7197 Height: 3 Parent: 7401
+Node: 7567 Height: 3 Parent: 7401
+Node: 8069 Height: 3 Parent: 8301
+Node: 8554 Height: 3 Parent: 8301
+Node: 8968 Height: 2 Parent: 9085
+Node: 9171 Height: 2 Parent: 9085
+Node: 9345 Height: 3 Parent: 9465
+Node: 9553 Height: 3 Parent: 9465
+Node: 9853 Height: 2 Parent: 9958
+Node: 9975 Height: 2 Parent: 9958
+Node: 40 Height: 0 Parent: 65
+Node: 170 Height: 1 Parent: 189
+Node: 221 Height: 1 Parent: 189
+Node: 279 Height: 2 Parent: 315
+Node: 534 Height: 2 Parent: 315
+Node: 713 Height: 1 Parent: 736
+Node: 917 Height: 2 Parent: 736
+Node: 1032 Height: 2 Parent: 1103
+Node: 1169 Height: 2 Parent: 1103
+Node: 1373 Height: 2 Parent: 1507
+Node: 1632 Height: 2 Parent: 1507
+Node: 1804 Height: 2 Parent: 1856
+Node: 1904 Height: 2 Parent: 1856
+Node: 2131 Height: 2 Parent: 2261
+Node: 2341 Height: 2 Parent: 2261
+Node: 2575 Height: 2 Parent: 2610
+Node: 2626 Height: 2 Parent: 2610
+Node: 2791 Height: 2 Parent: 2851
+Node: 3043 Height: 2 Parent: 2851
+Node: 3374 Height: 2 Parent: 3471
+Node: 3636 Height: 1 Parent: 3471
+Node: 3767 Height: 1 Parent: 3871
+Node: 3885 Height: 1 Parent: 3871
+Node: 4061 Height: 3 Parent: 4170
+Node: 4315 Height: 2 Parent: 4170
+Node: 4433 Height: 2 Parent: 4689
+Node: 4833 Height: 2 Parent: 4689
+Node: 4973 Height: 2 Parent: 5019
+Node: 5092 Height: 2 Parent: 5019
+Node: 5333 Height: 2 Parent: 5436
+Node: 5520 Height: 3 Parent: 5436
+Node: 5859 Height: 1 Parent: 5883
+Node: 6022 Height: 1 Parent: 5883
+Node: 6171 Height: 1 Parent: 6285
+Node: 6286 Height: 0 Parent: 6285
+Node: 6367 Height: 0 Parent: 6369
+Node: 6374 Height: 0 Parent: 6369
+Node: 6581 Height: 2 Parent: 6673
+Node: 6718 Height: 1 Parent: 6673
+Node: 6850 Height: 2 Parent: 6928
+Node: 7058 Height: 2 Parent: 6928
+Node: 7172 Height: 1 Parent: 7197
+Node: 7331 Height: 2 Parent: 7197
+Node: 7488 Height: 2 Parent: 7567
+Node: 7626 Height: 2 Parent: 7567
+Node: 7907 Height: 2 Parent: 8069
+Node: 8111 Height: 2 Parent: 8069
+Node: 8468 Height: 2 Parent: 8554
+Node: 8611 Height: 1 Parent: 8554
+Node: 8777 Height: 1 Parent: 8968
+Node: 9075 Height: 1 Parent: 8968
+Node: 9113 Height: 1 Parent: 9171
+Node: 9181 Height: 1 Parent: 9171
+Node: 9259 Height: 2 Parent: 9345
+Node: 9384 Height: 1 Parent: 9345
+Node: 9517 Height: 1 Parent: 9553
+Node: 9574 Height: 2 Parent: 9553
+Node: 9804 Height: 1 Parent: 9853
+Node: 9915 Height: 1 Parent: 9853
+Node: 9972 Height: 1 Parent: 9975
+Node: 9977 Height: 1 Parent: 9975
+Node: 139 Height: 0 Parent: 170
+Node: 185 Height: 0 Parent: 170
+Node: 209 Height: 0 Parent: 221
+Node: 266 Height: 1 Parent: 279
+Node: 298 Height: 0 Parent: 279
+Node: 495 Height: 1 Parent: 534
+Node: 567 Height: 1 Parent: 534
+Node: 662 Height: 0 Parent: 713
+Node: 735 Height: 0 Parent: 713
+Node: 819 Height: 1 Parent: 917
+Node: 965 Height: 0 Parent: 917
+Node: 1021 Height: 1 Parent: 1032
+Node: 1069 Height: 1 Parent: 1032
+Node: 1125 Height: 1 Parent: 1169
+Node: 1194 Height: 0 Parent: 1169
+Node: 1289 Height: 1 Parent: 1373
+Node: 1472 Height: 1 Parent: 1373
+Node: 1598 Height: 1 Parent: 1632
+Node: 1736 Height: 1 Parent: 1632
+Node: 1752 Height: 1 Parent: 1804
+Node: 1851 Height: 0 Parent: 1804
+Node: 1896 Height: 1 Parent: 1904
+Node: 1948 Height: 0 Parent: 1904
+Node: 2106 Height: 1 Parent: 2131
+Node: 2192 Height: 1 Parent: 2131
+Node: 2270 Height: 0 Parent: 2341
+Node: 2356 Height: 1 Parent: 2341
+Node: 2459 Height: 1 Parent: 2575
+Node: 2604 Height: 0 Parent: 2575
+Node: 2623 Height: 0 Parent: 2626
+Node: 2646 Height: 1 Parent: 2626
+Node: 2787 Height: 0 Parent: 2791
+Node: 2797 Height: 1 Parent: 2791
+Node: 2892 Height: 1 Parent: 3043
+Node: 3253 Height: 1 Parent: 3043
+Node: 3353 Height: 0 Parent: 3374
+Node: 3434 Height: 1 Parent: 3374
+Node: 3624 Height: 0 Parent: 3636
+Node: 3638 Height: 0 Parent: 3636
+Node: 3744 Height: 0 Parent: 3767
+Node: 3791 Height: 0 Parent: 3767
+Node: 3881 Height: 0 Parent: 3885
+Node: 3945 Height: 0 Parent: 3885
+Node: 4024 Height: 1 Parent: 4061
+Node: 4073 Height: 2 Parent: 4061
+Node: 4269 Height: 1 Parent: 4315
+Node: 4370 Height: 1 Parent: 4315
+Node: 4422 Height: 1 Parent: 4433
+Node: 4612 Height: 1 Parent: 4433
+Node: 4774 Height: 1 Parent: 4833
+Node: 4858 Height: 0 Parent: 4833
+Node: 4925 Height: 1 Parent: 4973
+Node: 4990 Height: 0 Parent: 4973
+Node: 5036 Height: 1 Parent: 5092
+Node: 5123 Height: 1 Parent: 5092
+Node: 5299 Height: 1 Parent: 5333
+Node: 5430 Height: 1 Parent: 5333
+Node: 5489 Height: 1 Parent: 5520
+Node: 5658 Height: 2 Parent: 5520
+Node: 5781 Height: 0 Parent: 5859
+Node: 5960 Height: 0 Parent: 6022
+Node: 6100 Height: 0 Parent: 6022
+Node: 6161 Height: 0 Parent: 6171
+Node: 6216 Height: 0 Parent: 6171
+Node: 6577 Height: 1 Parent: 6581
+Node: 6640 Height: 0 Parent: 6581
+Node: 6710 Height: 0 Parent: 6718
+Node: 6827 Height: 0 Parent: 6850
+Node: 6881 Height: 1 Parent: 6850
+Node: 6946 Height: 1 Parent: 7058
+Node: 7092 Height: 0 Parent: 7058
+Node: 7183 Height: 0 Parent: 7172
+Node: 7259 Height: 1 Parent: 7331
+Node: 7361 Height: 0 Parent: 7331
+Node: 7457 Height: 0 Parent: 7488
+Node: 7546 Height: 1 Parent: 7488
+Node: 7577 Height: 1 Parent: 7626
+Node: 7652 Height: 0 Parent: 7626
+Node: 7857 Height: 0 Parent: 7907
+Node: 7924 Height: 1 Parent: 7907
+Node: 8098 Height: 0 Parent: 8111
+Node: 8229 Height: 1 Parent: 8111
+Node: 8356 Height: 0 Parent: 8468
+Node: 8538 Height: 1 Parent: 8468
+Node: 8586 Height: 0 Parent: 8611
+Node: 8619 Height: 0 Parent: 8611
+Node: 8726 Height: 0 Parent: 8777
+Node: 8943 Height: 0 Parent: 8777
+Node: 9067 Height: 0 Parent: 9075
+Node: 9080 Height: 0 Parent: 9075
+Node: 9086 Height: 0 Parent: 9113
+Node: 9163 Height: 0 Parent: 9113
+Node: 9173 Height: 0 Parent: 9181
+Node: 9192 Height: 0 Parent: 9181
+Node: 9225 Height: 1 Parent: 9259
+Node: 9336 Height: 1 Parent: 9259
+Node: 9362 Height: 0 Parent: 9384
+Node: 9496 Height: 0 Parent: 9517
+Node: 9557 Height: 0 Parent: 9574
+Node: 9602 Height: 1 Parent: 9574
+Node: 9702 Height: 0 Parent: 9804
+Node: 9852 Height: 0 Parent: 9804
+Node: 9889 Height: 0 Parent: 9915
+Node: 9923 Height: 0 Parent: 9915
+Node: 9974 Height: 0 Parent: 9972
+Node: 9988 Height: 0 Parent: 9977
+Node: 270 Height: 0 Parent: 266
+Node: 364 Height: 0 Parent: 495
+Node: 529 Height: 0 Parent: 495
+Node: 551 Height: 0 Parent: 567
+Node: 751 Height: 0 Parent: 819
+Node: 833 Height: 0 Parent: 819
+Node: 1019 Height: 0 Parent: 1021
+Node: 1023 Height: 0 Parent: 1021
+Node: 1066 Height: 0 Parent: 1069
+Node: 1101 Height: 0 Parent: 1069
+Node: 1110 Height: 0 Parent: 1125
+Node: 1152 Height: 0 Parent: 1125
+Node: 1266 Height: 0 Parent: 1289
+Node: 1341 Height: 0 Parent: 1289
+Node: 1395 Height: 0 Parent: 1472
+Node: 1569 Height: 0 Parent: 1598
+Node: 1724 Height: 0 Parent: 1736
+Node: 1769 Height: 0 Parent: 1752
+Node: 1872 Height: 0 Parent: 1896
+Node: 2007 Height: 0 Parent: 2106
+Node: 2124 Height: 0 Parent: 2106
+Node: 2208 Height: 0 Parent: 2192
+Node: 2373 Height: 0 Parent: 2356
+Node: 2408 Height: 0 Parent: 2459
+Node: 2711 Height: 0 Parent: 2646
+Node: 2792 Height: 0 Parent: 2797
+Node: 2860 Height: 0 Parent: 2892
+Node: 2934 Height: 0 Parent: 2892
+Node: 3108 Height: 0 Parent: 3253
+Node: 3294 Height: 0 Parent: 3253
+Node: 3409 Height: 0 Parent: 3434
+Node: 4035 Height: 0 Parent: 4024
+Node: 4072 Height: 1 Parent: 4073
+Node: 4095 Height: 0 Parent: 4073
+Node: 4183 Height: 0 Parent: 4269
+Node: 4286 Height: 0 Parent: 4269
+Node: 4325 Height: 0 Parent: 4370
+Node: 4372 Height: 0 Parent: 4370
+Node: 4414 Height: 0 Parent: 4422
+Node: 4507 Height: 0 Parent: 4612
+Node: 4648 Height: 0 Parent: 4612
+Node: 4724 Height: 0 Parent: 4774
+Node: 4916 Height: 0 Parent: 4925
+Node: 5030 Height: 0 Parent: 5036
+Node: 5060 Height: 0 Parent: 5036
+Node: 5118 Height: 0 Parent: 5123
+Node: 5140 Height: 0 Parent: 5123
+Node: 5257 Height: 0 Parent: 5299
+Node: 5329 Height: 0 Parent: 5299
+Node: 5403 Height: 0 Parent: 5430
+Node: 5517 Height: 0 Parent: 5489
+Node: 5555 Height: 0 Parent: 5658
+Node: 5727 Height: 1 Parent: 5658
+Node: 6540 Height: 0 Parent: 6577
+Node: 6924 Height: 0 Parent: 6881
+Node: 6945 Height: 0 Parent: 6946
+Node: 6978 Height: 0 Parent: 6946
+Node: 7225 Height: 0 Parent: 7259
+Node: 7496 Height: 0 Parent: 7546
+Node: 7568 Height: 0 Parent: 7577
+Node: 7597 Height: 0 Parent: 7577
+Node: 8050 Height: 0 Parent: 7924
+Node: 8195 Height: 0 Parent: 8229
+Node: 8280 Height: 0 Parent: 8229
+Node: 8533 Height: 0 Parent: 8538
+Node: 9218 Height: 0 Parent: 9225
+Node: 9266 Height: 0 Parent: 9336
+Node: 9591 Height: 0 Parent: 9602
+Node: 4063 Height: 0 Parent: 4072
+Node: 5751 Height: 0 Parent: 5727
+
+By using AVL_Tree_BFS_Search, find 6484 in AVL tree: 6484
+Removing Operation:
+Removing 5019
+Removing 2623
+Removing 5436
+Removing 5520
+Removing 5257
+Removing 9163
+Removing 4422
+Removing 2124
+Removing 2851
+Removing 1507
+Removing 9211
+Removing 7172
+Removing 315
+Removing 5036
+Removing 5781
+Removing 1019
+Removing 1736
+Removing 8554
+Removing 9889
+Removing 8301
+Removing 1266
+Removing 4315
+Removing 298
+Removing 270
+Removing 7331
+Removing 9915
+Removing 6718
+Removing 1752
+Removing 9557
+Removing 5329
+Removing 6881
+Removing 364
+Removing 6640
+Removing 7457
+Removing 713
+Removing 751
+Removing 5140
+Removing 9362
+Removing 6710
+Removing 1724
+Removing 5727
+Removing 4000
+Removing 4370
+Removing 7857
+Removing 1011
+Removing 5176
+Removing 1289
+Removing 9085
+Removing 2722
+Removing 4170
+Removing 9574
+Removing 4973
+Removing 2131
+Removing 5859
+Removing 6161
+Removing 534
+Removing 2610
+Removing 6468
+Removing 6581
+Removing 6464
+Removing 9958
+Removing 8468
+Removing 4269
+Removing 8538
+Removing 2192
+Removing 7924
+Removing 9602
+Removing 2860
+Removing 3294
+Removing 6924
+Removing 139
+Removing 551
+Removing 6577
+Removing 9852
+Removing 4648
+Removing 819
+Removing 4035
+Removing 8611
+Removing 6374
+Removing 5517
+Removing 4286
+Removing 3624
+Removing 1373
+Removing 917
+Removing 4061
+Removing 262
+Removing 7652
+Removing 7159
+Removing 6100
+Removing 6928
+Removing 8968
+Removing 221
+Removing 3697
+Removing 8280
+Removing 1021
+Removing 2356
+Removing 2787
+Removing 7626
+Removing 5333
+Removing 9702
+Removing 117
+Removing 9384
+Removing 189
+
+After removing, BFS Traversal
+Node: 5773 Height: 8 Parent: 0
+Node: 2378 Height: 7 Parent: 5773
+Node: 7815 Height: 6 Parent: 5773
+Node: 965 Height: 6 Parent: 2378
+Node: 3945 Height: 6 Parent: 2378
+Node: 7092 Height: 5 Parent: 7815
+Node: 9192 Height: 5 Parent: 7815
+Node: 209 Height: 4 Parent: 965
+Node: 1747 Height: 5 Parent: 965
+Node: 3303 Height: 5 Parent: 3945
+Node: 4909 Height: 5 Parent: 3945
+Node: 6484 Height: 4 Parent: 7092
+Node: 7401 Height: 3 Parent: 7092
+Node: 8705 Height: 4 Parent: 9192
+Node: 9631 Height: 4 Parent: 9192
+Node: 65 Height: 2 Parent: 209
+Node: 630 Height: 3 Parent: 209
+Node: 1242 Height: 4 Parent: 1747
+Node: 1977 Height: 4 Parent: 1747
+Node: 2711 Height: 4 Parent: 3303
+Node: 3638 Height: 3 Parent: 3303
+Node: 4402 Height: 4 Parent: 4909
+Node: 5123 Height: 4 Parent: 4909
+Node: 6285 Height: 3 Parent: 6484
+Node: 6850 Height: 3 Parent: 6484
+Node: 7259 Height: 2 Parent: 7401
+Node: 7567 Height: 2 Parent: 7401
+Node: 8229 Height: 3 Parent: 8705
+Node: 9080 Height: 3 Parent: 8705
+Node: 9465 Height: 3 Parent: 9631
+Node: 9923 Height: 3 Parent: 9631
+Node: 40 Height: 0 Parent: 65
+Node: 185 Height: 1 Parent: 65
+Node: 529 Height: 2 Parent: 630
+Node: 736 Height: 2 Parent: 630
+Node: 1103 Height: 3 Parent: 1242
+Node: 1472 Height: 2 Parent: 1242
+Node: 1856 Height: 3 Parent: 1977
+Node: 2261 Height: 2 Parent: 1977
+Node: 2604 Height: 2 Parent: 2711
+Node: 2797 Height: 3 Parent: 2711
+Node: 3434 Height: 2 Parent: 3638
+Node: 3871 Height: 2 Parent: 3638
+Node: 4095 Height: 3 Parent: 4402
+Node: 4689 Height: 3 Parent: 4402
+Node: 4990 Height: 3 Parent: 5123
+Node: 5430 Height: 3 Parent: 5123
+Node: 6126 Height: 2 Parent: 6285
+Node: 6342 Height: 2 Parent: 6285
+Node: 6803 Height: 2 Parent: 6850
+Node: 6946 Height: 2 Parent: 6850
+Node: 7197 Height: 1 Parent: 7259
+Node: 7361 Height: 0 Parent: 7259
+Node: 7496 Height: 1 Parent: 7567
+Node: 7577 Height: 1 Parent: 7567
+Node: 8069 Height: 2 Parent: 8229
+Node: 8533 Height: 2 Parent: 8229
+Node: 8943 Height: 2 Parent: 9080
+Node: 9171 Height: 2 Parent: 9080
+Node: 9259 Height: 2 Parent: 9465
+Node: 9553 Height: 2 Parent: 9465
+Node: 9804 Height: 1 Parent: 9923
+Node: 9975 Height: 2 Parent: 9923
+Node: 170 Height: 0 Parent: 185
+Node: 279 Height: 1 Parent: 529
+Node: 567 Height: 0 Parent: 529
+Node: 662 Height: 1 Parent: 736
+Node: 833 Height: 0 Parent: 736
+Node: 1032 Height: 2 Parent: 1103
+Node: 1169 Height: 2 Parent: 1103
+Node: 1341 Height: 1 Parent: 1472
+Node: 1598 Height: 1 Parent: 1472
+Node: 1804 Height: 1 Parent: 1856
+Node: 1904 Height: 2 Parent: 1856
+Node: 2106 Height: 1 Parent: 2261
+Node: 2341 Height: 1 Parent: 2261
+Node: 2459 Height: 1 Parent: 2604
+Node: 2646 Height: 1 Parent: 2604
+Node: 2791 Height: 1 Parent: 2797
+Node: 3043 Height: 2 Parent: 2797
+Node: 3374 Height: 1 Parent: 3434
+Node: 3471 Height: 1 Parent: 3434
+Node: 3767 Height: 1 Parent: 3871
+Node: 3885 Height: 1 Parent: 3871
+Node: 4072 Height: 2 Parent: 4095
+Node: 4325 Height: 1 Parent: 4095
+Node: 4433 Height: 2 Parent: 4689
+Node: 4833 Height: 2 Parent: 4689
+Node: 4925 Height: 1 Parent: 4990
+Node: 5092 Height: 2 Parent: 4990
+Node: 5299 Height: 1 Parent: 5430
+Node: 5658 Height: 2 Parent: 5430
+Node: 5960 Height: 1 Parent: 6126
+Node: 6171 Height: 1 Parent: 6126
+Node: 6286 Height: 0 Parent: 6342
+Node: 6369 Height: 1 Parent: 6342
+Node: 6540 Height: 1 Parent: 6803
+Node: 6827 Height: 0 Parent: 6803
+Node: 6945 Height: 0 Parent: 6946
+Node: 7058 Height: 1 Parent: 6946
+Node: 7183 Height: 0 Parent: 7197
+Node: 7225 Height: 0 Parent: 7197
+Node: 7488 Height: 0 Parent: 7496
+Node: 7546 Height: 0 Parent: 7496
+Node: 7568 Height: 0 Parent: 7577
+Node: 7597 Height: 0 Parent: 7577
+Node: 7907 Height: 1 Parent: 8069
+Node: 8111 Height: 1 Parent: 8069
+Node: 8356 Height: 0 Parent: 8533
+Node: 8586 Height: 1 Parent: 8533
+Node: 8777 Height: 1 Parent: 8943
+Node: 9075 Height: 1 Parent: 8943
+Node: 9113 Height: 1 Parent: 9171
+Node: 9181 Height: 1 Parent: 9171
+Node: 9225 Height: 1 Parent: 9259
+Node: 9336 Height: 1 Parent: 9259
+Node: 9517 Height: 1 Parent: 9553
+Node: 9591 Height: 0 Parent: 9553
+Node: 9853 Height: 0 Parent: 9804
+Node: 9972 Height: 1 Parent: 9975
+Node: 9977 Height: 1 Parent: 9975
+Node: 266 Height: 0 Parent: 279
+Node: 495 Height: 0 Parent: 279
+Node: 735 Height: 0 Parent: 662
+Node: 1023 Height: 0 Parent: 1032
+Node: 1069 Height: 1 Parent: 1032
+Node: 1125 Height: 1 Parent: 1169
+Node: 1194 Height: 0 Parent: 1169
+Node: 1395 Height: 0 Parent: 1341
+Node: 1569 Height: 0 Parent: 1598
+Node: 1632 Height: 0 Parent: 1598
+Node: 1769 Height: 0 Parent: 1804
+Node: 1851 Height: 0 Parent: 1804
+Node: 1896 Height: 1 Parent: 1904
+Node: 1948 Height: 0 Parent: 1904
+Node: 2007 Height: 0 Parent: 2106
+Node: 2208 Height: 0 Parent: 2106
+Node: 2270 Height: 0 Parent: 2341
+Node: 2373 Height: 0 Parent: 2341
+Node: 2408 Height: 0 Parent: 2459
+Node: 2575 Height: 0 Parent: 2459
+Node: 2626 Height: 0 Parent: 2646
+Node: 2792 Height: 0 Parent: 2791
+Node: 2892 Height: 1 Parent: 3043
+Node: 3253 Height: 1 Parent: 3043
+Node: 3353 Height: 0 Parent: 3374
+Node: 3409 Height: 0 Parent: 3374
+Node: 3636 Height: 0 Parent: 3471
+Node: 3744 Height: 0 Parent: 3767
+Node: 3791 Height: 0 Parent: 3767
+Node: 3881 Height: 0 Parent: 3885
+Node: 4024 Height: 1 Parent: 4072
+Node: 4073 Height: 0 Parent: 4072
+Node: 4183 Height: 0 Parent: 4325
+Node: 4372 Height: 0 Parent: 4325
+Node: 4414 Height: 0 Parent: 4433
+Node: 4612 Height: 1 Parent: 4433
+Node: 4774 Height: 1 Parent: 4833
+Node: 4858 Height: 0 Parent: 4833
+Node: 4916 Height: 0 Parent: 4925
+Node: 5030 Height: 1 Parent: 5092
+Node: 5118 Height: 0 Parent: 5092
+Node: 5403 Height: 0 Parent: 5299
+Node: 5489 Height: 1 Parent: 5658
+Node: 5751 Height: 0 Parent: 5658
+Node: 5883 Height: 0 Parent: 5960
+Node: 6022 Height: 0 Parent: 5960
+Node: 6216 Height: 0 Parent: 6171
+Node: 6367 Height: 0 Parent: 6369
+Node: 6673 Height: 0 Parent: 6540
+Node: 6978 Height: 0 Parent: 7058
+Node: 8050 Height: 0 Parent: 7907
+Node: 8098 Height: 0 Parent: 8111
+Node: 8195 Height: 0 Parent: 8111
+Node: 8619 Height: 0 Parent: 8586
+Node: 8726 Height: 0 Parent: 8777
+Node: 9067 Height: 0 Parent: 9075
+Node: 9086 Height: 0 Parent: 9113
+Node: 9173 Height: 0 Parent: 9181
+Node: 9218 Height: 0 Parent: 9225
+Node: 9266 Height: 0 Parent: 9336
+Node: 9345 Height: 0 Parent: 9336
+Node: 9496 Height: 0 Parent: 9517
+Node: 9974 Height: 0 Parent: 9972
+Node: 9988 Height: 0 Parent: 9977
+Node: 1066 Height: 0 Parent: 1069
+Node: 1101 Height: 0 Parent: 1069
+Node: 1110 Height: 0 Parent: 1125
+Node: 1152 Height: 0 Parent: 1125
+Node: 1872 Height: 0 Parent: 1896
+Node: 2934 Height: 0 Parent: 2892
+Node: 3108 Height: 0 Parent: 3253
+Node: 4063 Height: 0 Parent: 4024
+Node: 4507 Height: 0 Parent: 4612
+Node: 4724 Height: 0 Parent: 4774
+Node: 5060 Height: 0 Parent: 5030
+Node: 5555 Height: 0 Parent: 5489
+
+After deletion, size of AVL tree: 197
+
+Pre-Order Traversal
+Node: 5773 Height: 8 Parent: 0
+Node: 2378 Height: 7 Parent: 5773
+Node: 965 Height: 6 Parent: 2378
+Node: 209 Height: 4 Parent: 965
+Node: 65 Height: 2 Parent: 209
+Node: 40 Height: 0 Parent: 65
+Node: 185 Height: 1 Parent: 65
+Node: 170 Height: 0 Parent: 185
+Node: 630 Height: 3 Parent: 209
+Node: 529 Height: 2 Parent: 630
+Node: 279 Height: 1 Parent: 529
+Node: 266 Height: 0 Parent: 279
+Node: 495 Height: 0 Parent: 279
+Node: 567 Height: 0 Parent: 529
+Node: 736 Height: 2 Parent: 630
+Node: 662 Height: 1 Parent: 736
+Node: 735 Height: 0 Parent: 662
+Node: 833 Height: 0 Parent: 736
+Node: 1747 Height: 5 Parent: 965
+Node: 1242 Height: 4 Parent: 1747
+Node: 1103 Height: 3 Parent: 1242
+Node: 1032 Height: 2 Parent: 1103
+Node: 1023 Height: 0 Parent: 1032
+Node: 1069 Height: 1 Parent: 1032
+Node: 1066 Height: 0 Parent: 1069
+Node: 1101 Height: 0 Parent: 1069
+Node: 1169 Height: 2 Parent: 1103
+Node: 1125 Height: 1 Parent: 1169
+Node: 1110 Height: 0 Parent: 1125
+Node: 1152 Height: 0 Parent: 1125
+Node: 1194 Height: 0 Parent: 1169
+Node: 1472 Height: 2 Parent: 1242
+Node: 1341 Height: 1 Parent: 1472
+Node: 1395 Height: 0 Parent: 1341
+Node: 1598 Height: 1 Parent: 1472
+Node: 1569 Height: 0 Parent: 1598
+Node: 1632 Height: 0 Parent: 1598
+Node: 1977 Height: 4 Parent: 1747
+Node: 1856 Height: 3 Parent: 1977
+Node: 1804 Height: 1 Parent: 1856
+Node: 1769 Height: 0 Parent: 1804
+Node: 1851 Height: 0 Parent: 1804
+Node: 1904 Height: 2 Parent: 1856
+Node: 1896 Height: 1 Parent: 1904
+Node: 1872 Height: 0 Parent: 1896
+Node: 1948 Height: 0 Parent: 1904
+Node: 2261 Height: 2 Parent: 1977
+Node: 2106 Height: 1 Parent: 2261
+Node: 2007 Height: 0 Parent: 2106
+Node: 2208 Height: 0 Parent: 2106
+Node: 2341 Height: 1 Parent: 2261
+Node: 2270 Height: 0 Parent: 2341
+Node: 2373 Height: 0 Parent: 2341
+Node: 3945 Height: 6 Parent: 2378
+Node: 3303 Height: 5 Parent: 3945
+Node: 2711 Height: 4 Parent: 3303
+Node: 2604 Height: 2 Parent: 2711
+Node: 2459 Height: 1 Parent: 2604
+Node: 2408 Height: 0 Parent: 2459
+Node: 2575 Height: 0 Parent: 2459
+Node: 2646 Height: 1 Parent: 2604
+Node: 2626 Height: 0 Parent: 2646
+Node: 2797 Height: 3 Parent: 2711
+Node: 2791 Height: 1 Parent: 2797
+Node: 2792 Height: 0 Parent: 2791
+Node: 3043 Height: 2 Parent: 2797
+Node: 2892 Height: 1 Parent: 3043
+Node: 2934 Height: 0 Parent: 2892
+Node: 3253 Height: 1 Parent: 3043
+Node: 3108 Height: 0 Parent: 3253
+Node: 3638 Height: 3 Parent: 3303
+Node: 3434 Height: 2 Parent: 3638
+Node: 3374 Height: 1 Parent: 3434
+Node: 3353 Height: 0 Parent: 3374
+Node: 3409 Height: 0 Parent: 3374
+Node: 3471 Height: 1 Parent: 3434
+Node: 3636 Height: 0 Parent: 3471
+Node: 3871 Height: 2 Parent: 3638
+Node: 3767 Height: 1 Parent: 3871
+Node: 3744 Height: 0 Parent: 3767
+Node: 3791 Height: 0 Parent: 3767
+Node: 3885 Height: 1 Parent: 3871
+Node: 3881 Height: 0 Parent: 3885
+Node: 4909 Height: 5 Parent: 3945
+Node: 4402 Height: 4 Parent: 4909
+Node: 4095 Height: 3 Parent: 4402
+Node: 4072 Height: 2 Parent: 4095
+Node: 4024 Height: 1 Parent: 4072
+Node: 4063 Height: 0 Parent: 4024
+Node: 4073 Height: 0 Parent: 4072
+Node: 4325 Height: 1 Parent: 4095
+Node: 4183 Height: 0 Parent: 4325
+Node: 4372 Height: 0 Parent: 4325
+Node: 4689 Height: 3 Parent: 4402
+Node: 4433 Height: 2 Parent: 4689
+Node: 4414 Height: 0 Parent: 4433
+Node: 4612 Height: 1 Parent: 4433
+Node: 4507 Height: 0 Parent: 4612
+Node: 4833 Height: 2 Parent: 4689
+Node: 4774 Height: 1 Parent: 4833
+Node: 4724 Height: 0 Parent: 4774
+Node: 4858 Height: 0 Parent: 4833
+Node: 5123 Height: 4 Parent: 4909
+Node: 4990 Height: 3 Parent: 5123
+Node: 4925 Height: 1 Parent: 4990
+Node: 4916 Height: 0 Parent: 4925
+Node: 5092 Height: 2 Parent: 4990
+Node: 5030 Height: 1 Parent: 5092
+Node: 5060 Height: 0 Parent: 5030
+Node: 5118 Height: 0 Parent: 5092
+Node: 5430 Height: 3 Parent: 5123
+Node: 5299 Height: 1 Parent: 5430
+Node: 5403 Height: 0 Parent: 5299
+Node: 5658 Height: 2 Parent: 5430
+Node: 5489 Height: 1 Parent: 5658
+Node: 5555 Height: 0 Parent: 5489
+Node: 5751 Height: 0 Parent: 5658
+Node: 7815 Height: 6 Parent: 5773
+Node: 7092 Height: 5 Parent: 7815
+Node: 6484 Height: 4 Parent: 7092
+Node: 6285 Height: 3 Parent: 6484
+Node: 6126 Height: 2 Parent: 6285
+Node: 5960 Height: 1 Parent: 6126
+Node: 5883 Height: 0 Parent: 5960
+Node: 6022 Height: 0 Parent: 5960
+Node: 6171 Height: 1 Parent: 6126
+Node: 6216 Height: 0 Parent: 6171
+Node: 6342 Height: 2 Parent: 6285
+Node: 6286 Height: 0 Parent: 6342
+Node: 6369 Height: 1 Parent: 6342
+Node: 6367 Height: 0 Parent: 6369
+Node: 6850 Height: 3 Parent: 6484
+Node: 6803 Height: 2 Parent: 6850
+Node: 6540 Height: 1 Parent: 6803
+Node: 6673 Height: 0 Parent: 6540
+Node: 6827 Height: 0 Parent: 6803
+Node: 6946 Height: 2 Parent: 6850
+Node: 6945 Height: 0 Parent: 6946
+Node: 7058 Height: 1 Parent: 6946
+Node: 6978 Height: 0 Parent: 7058
+Node: 7401 Height: 3 Parent: 7092
+Node: 7259 Height: 2 Parent: 7401
+Node: 7197 Height: 1 Parent: 7259
+Node: 7183 Height: 0 Parent: 7197
+Node: 7225 Height: 0 Parent: 7197
+Node: 7361 Height: 0 Parent: 7259
+Node: 7567 Height: 2 Parent: 7401
+Node: 7496 Height: 1 Parent: 7567
+Node: 7488 Height: 0 Parent: 7496
+Node: 7546 Height: 0 Parent: 7496
+Node: 7577 Height: 1 Parent: 7567
+Node: 7568 Height: 0 Parent: 7577
+Node: 7597 Height: 0 Parent: 7577
+Node: 9192 Height: 5 Parent: 7815
+Node: 8705 Height: 4 Parent: 9192
+Node: 8229 Height: 3 Parent: 8705
+Node: 8069 Height: 2 Parent: 8229
+Node: 7907 Height: 1 Parent: 8069
+Node: 8050 Height: 0 Parent: 7907
+Node: 8111 Height: 1 Parent: 8069
+Node: 8098 Height: 0 Parent: 8111
+Node: 8195 Height: 0 Parent: 8111
+Node: 8533 Height: 2 Parent: 8229
+Node: 8356 Height: 0 Parent: 8533
+Node: 8586 Height: 1 Parent: 8533
+Node: 8619 Height: 0 Parent: 8586
+Node: 9080 Height: 3 Parent: 8705
+Node: 8943 Height: 2 Parent: 9080
+Node: 8777 Height: 1 Parent: 8943
+Node: 8726 Height: 0 Parent: 8777
+Node: 9075 Height: 1 Parent: 8943
+Node: 9067 Height: 0 Parent: 9075
+Node: 9171 Height: 2 Parent: 9080
+Node: 9113 Height: 1 Parent: 9171
+Node: 9086 Height: 0 Parent: 9113
+Node: 9181 Height: 1 Parent: 9171
+Node: 9173 Height: 0 Parent: 9181
+Node: 9631 Height: 4 Parent: 9192
+Node: 9465 Height: 3 Parent: 9631
+Node: 9259 Height: 2 Parent: 9465
+Node: 9225 Height: 1 Parent: 9259
+Node: 9218 Height: 0 Parent: 9225
+Node: 9336 Height: 1 Parent: 9259
+Node: 9266 Height: 0 Parent: 9336
+Node: 9345 Height: 0 Parent: 9336
+Node: 9553 Height: 2 Parent: 9465
+Node: 9517 Height: 1 Parent: 9553
+Node: 9496 Height: 0 Parent: 9517
+Node: 9591 Height: 0 Parent: 9553
+Node: 9923 Height: 3 Parent: 9631
+Node: 9804 Height: 1 Parent: 9923
+Node: 9853 Height: 0 Parent: 9804
+Node: 9975 Height: 2 Parent: 9923
+Node: 9972 Height: 1 Parent: 9975
+Node: 9974 Height: 0 Parent: 9972
+Node: 9977 Height: 1 Parent: 9975
+Node: 9988 Height: 0 Parent: 9977
+
+In-Order Traversal
+Node: 40 Height: 0 Parent: 65
+Node: 65 Height: 2 Parent: 209
+Node: 170 Height: 0 Parent: 185
+Node: 185 Height: 1 Parent: 65
+Node: 209 Height: 4 Parent: 965
+Node: 266 Height: 0 Parent: 279
+Node: 279 Height: 1 Parent: 529
+Node: 495 Height: 0 Parent: 279
+Node: 529 Height: 2 Parent: 630
+Node: 567 Height: 0 Parent: 529
+Node: 630 Height: 3 Parent: 209
+Node: 662 Height: 1 Parent: 736
+Node: 735 Height: 0 Parent: 662
+Node: 736 Height: 2 Parent: 630
+Node: 833 Height: 0 Parent: 736
+Node: 965 Height: 6 Parent: 2378
+Node: 1023 Height: 0 Parent: 1032
+Node: 1032 Height: 2 Parent: 1103
+Node: 1066 Height: 0 Parent: 1069
+Node: 1069 Height: 1 Parent: 1032
+Node: 1101 Height: 0 Parent: 1069
+Node: 1103 Height: 3 Parent: 1242
+Node: 1110 Height: 0 Parent: 1125
+Node: 1125 Height: 1 Parent: 1169
+Node: 1152 Height: 0 Parent: 1125
+Node: 1169 Height: 2 Parent: 1103
+Node: 1194 Height: 0 Parent: 1169
+Node: 1242 Height: 4 Parent: 1747
+Node: 1341 Height: 1 Parent: 1472
+Node: 1395 Height: 0 Parent: 1341
+Node: 1472 Height: 2 Parent: 1242
+Node: 1569 Height: 0 Parent: 1598
+Node: 1598 Height: 1 Parent: 1472
+Node: 1632 Height: 0 Parent: 1598
+Node: 1747 Height: 5 Parent: 965
+Node: 1769 Height: 0 Parent: 1804
+Node: 1804 Height: 1 Parent: 1856
+Node: 1851 Height: 0 Parent: 1804
+Node: 1856 Height: 3 Parent: 1977
+Node: 1872 Height: 0 Parent: 1896
+Node: 1896 Height: 1 Parent: 1904
+Node: 1904 Height: 2 Parent: 1856
+Node: 1948 Height: 0 Parent: 1904
+Node: 1977 Height: 4 Parent: 1747
+Node: 2007 Height: 0 Parent: 2106
+Node: 2106 Height: 1 Parent: 2261
+Node: 2208 Height: 0 Parent: 2106
+Node: 2261 Height: 2 Parent: 1977
+Node: 2270 Height: 0 Parent: 2341
+Node: 2341 Height: 1 Parent: 2261
+Node: 2373 Height: 0 Parent: 2341
+Node: 2378 Height: 7 Parent: 5773
+Node: 2408 Height: 0 Parent: 2459
+Node: 2459 Height: 1 Parent: 2604
+Node: 2575 Height: 0 Parent: 2459
+Node: 2604 Height: 2 Parent: 2711
+Node: 2626 Height: 0 Parent: 2646
+Node: 2646 Height: 1 Parent: 2604
+Node: 2711 Height: 4 Parent: 3303
+Node: 2791 Height: 1 Parent: 2797
+Node: 2792 Height: 0 Parent: 2791
+Node: 2797 Height: 3 Parent: 2711
+Node: 2892 Height: 1 Parent: 3043
+Node: 2934 Height: 0 Parent: 2892
+Node: 3043 Height: 2 Parent: 2797
+Node: 3108 Height: 0 Parent: 3253
+Node: 3253 Height: 1 Parent: 3043
+Node: 3303 Height: 5 Parent: 3945
+Node: 3353 Height: 0 Parent: 3374
+Node: 3374 Height: 1 Parent: 3434
+Node: 3409 Height: 0 Parent: 3374
+Node: 3434 Height: 2 Parent: 3638
+Node: 3471 Height: 1 Parent: 3434
+Node: 3636 Height: 0 Parent: 3471
+Node: 3638 Height: 3 Parent: 3303
+Node: 3744 Height: 0 Parent: 3767
+Node: 3767 Height: 1 Parent: 3871
+Node: 3791 Height: 0 Parent: 3767
+Node: 3871 Height: 2 Parent: 3638
+Node: 3881 Height: 0 Parent: 3885
+Node: 3885 Height: 1 Parent: 3871
+Node: 3945 Height: 6 Parent: 2378
+Node: 4024 Height: 1 Parent: 4072
+Node: 4063 Height: 0 Parent: 4024
+Node: 4072 Height: 2 Parent: 4095
+Node: 4073 Height: 0 Parent: 4072
+Node: 4095 Height: 3 Parent: 4402
+Node: 4183 Height: 0 Parent: 4325
+Node: 4325 Height: 1 Parent: 4095
+Node: 4372 Height: 0 Parent: 4325
+Node: 4402 Height: 4 Parent: 4909
+Node: 4414 Height: 0 Parent: 4433
+Node: 4433 Height: 2 Parent: 4689
+Node: 4507 Height: 0 Parent: 4612
+Node: 4612 Height: 1 Parent: 4433
+Node: 4689 Height: 3 Parent: 4402
+Node: 4724 Height: 0 Parent: 4774
+Node: 4774 Height: 1 Parent: 4833
+Node: 4833 Height: 2 Parent: 4689
+Node: 4858 Height: 0 Parent: 4833
+Node: 4909 Height: 5 Parent: 3945
+Node: 4916 Height: 0 Parent: 4925
+Node: 4925 Height: 1 Parent: 4990
+Node: 4990 Height: 3 Parent: 5123
+Node: 5030 Height: 1 Parent: 5092
+Node: 5060 Height: 0 Parent: 5030
+Node: 5092 Height: 2 Parent: 4990
+Node: 5118 Height: 0 Parent: 5092
+Node: 5123 Height: 4 Parent: 4909
+Node: 5299 Height: 1 Parent: 5430
+Node: 5403 Height: 0 Parent: 5299
+Node: 5430 Height: 3 Parent: 5123
+Node: 5489 Height: 1 Parent: 5658
+Node: 5555 Height: 0 Parent: 5489
+Node: 5658 Height: 2 Parent: 5430
+Node: 5751 Height: 0 Parent: 5658
+Node: 5773 Height: 8 Parent: 0
+Node: 5883 Height: 0 Parent: 5960
+Node: 5960 Height: 1 Parent: 6126
+Node: 6022 Height: 0 Parent: 5960
+Node: 6126 Height: 2 Parent: 6285
+Node: 6171 Height: 1 Parent: 6126
+Node: 6216 Height: 0 Parent: 6171
+Node: 6285 Height: 3 Parent: 6484
+Node: 6286 Height: 0 Parent: 6342
+Node: 6342 Height: 2 Parent: 6285
+Node: 6367 Height: 0 Parent: 6369
+Node: 6369 Height: 1 Parent: 6342
+Node: 6484 Height: 4 Parent: 7092
+Node: 6540 Height: 1 Parent: 6803
+Node: 6673 Height: 0 Parent: 6540
+Node: 6803 Height: 2 Parent: 6850
+Node: 6827 Height: 0 Parent: 6803
+Node: 6850 Height: 3 Parent: 6484
+Node: 6945 Height: 0 Parent: 6946
+Node: 6946 Height: 2 Parent: 6850
+Node: 6978 Height: 0 Parent: 7058
+Node: 7058 Height: 1 Parent: 6946
+Node: 7092 Height: 5 Parent: 7815
+Node: 7183 Height: 0 Parent: 7197
+Node: 7197 Height: 1 Parent: 7259
+Node: 7225 Height: 0 Parent: 7197
+Node: 7259 Height: 2 Parent: 7401
+Node: 7361 Height: 0 Parent: 7259
+Node: 7401 Height: 3 Parent: 7092
+Node: 7488 Height: 0 Parent: 7496
+Node: 7496 Height: 1 Parent: 7567
+Node: 7546 Height: 0 Parent: 7496
+Node: 7567 Height: 2 Parent: 7401
+Node: 7568 Height: 0 Parent: 7577
+Node: 7577 Height: 1 Parent: 7567
+Node: 7597 Height: 0 Parent: 7577
+Node: 7815 Height: 6 Parent: 5773
+Node: 7907 Height: 1 Parent: 8069
+Node: 8050 Height: 0 Parent: 7907
+Node: 8069 Height: 2 Parent: 8229
+Node: 8098 Height: 0 Parent: 8111
+Node: 8111 Height: 1 Parent: 8069
+Node: 8195 Height: 0 Parent: 8111
+Node: 8229 Height: 3 Parent: 8705
+Node: 8356 Height: 0 Parent: 8533
+Node: 8533 Height: 2 Parent: 8229
+Node: 8586 Height: 1 Parent: 8533
+Node: 8619 Height: 0 Parent: 8586
+Node: 8705 Height: 4 Parent: 9192
+Node: 8726 Height: 0 Parent: 8777
+Node: 8777 Height: 1 Parent: 8943
+Node: 8943 Height: 2 Parent: 9080
+Node: 9067 Height: 0 Parent: 9075
+Node: 9075 Height: 1 Parent: 8943
+Node: 9080 Height: 3 Parent: 8705
+Node: 9086 Height: 0 Parent: 9113
+Node: 9113 Height: 1 Parent: 9171
+Node: 9171 Height: 2 Parent: 9080
+Node: 9173 Height: 0 Parent: 9181
+Node: 9181 Height: 1 Parent: 9171
+Node: 9192 Height: 5 Parent: 7815
+Node: 9218 Height: 0 Parent: 9225
+Node: 9225 Height: 1 Parent: 9259
+Node: 9259 Height: 2 Parent: 9465
+Node: 9266 Height: 0 Parent: 9336
+Node: 9336 Height: 1 Parent: 9259
+Node: 9345 Height: 0 Parent: 9336
+Node: 9465 Height: 3 Parent: 9631
+Node: 9496 Height: 0 Parent: 9517
+Node: 9517 Height: 1 Parent: 9553
+Node: 9553 Height: 2 Parent: 9465
+Node: 9591 Height: 0 Parent: 9553
+Node: 9631 Height: 4 Parent: 9192
+Node: 9804 Height: 1 Parent: 9923
+Node: 9853 Height: 0 Parent: 9804
+Node: 9923 Height: 3 Parent: 9631
+Node: 9972 Height: 1 Parent: 9975
+Node: 9974 Height: 0 Parent: 9972
+Node: 9975 Height: 2 Parent: 9923
+Node: 9977 Height: 1 Parent: 9975
+Node: 9988 Height: 0 Parent: 9977
+
+Post-Order Traversal
+Node: 40 Height: 0 Parent: 65
+Node: 170 Height: 0 Parent: 185
+Node: 185 Height: 1 Parent: 65
+Node: 65 Height: 2 Parent: 209
+Node: 266 Height: 0 Parent: 279
+Node: 495 Height: 0 Parent: 279
+Node: 279 Height: 1 Parent: 529
+Node: 567 Height: 0 Parent: 529
+Node: 529 Height: 2 Parent: 630
+Node: 735 Height: 0 Parent: 662
+Node: 662 Height: 1 Parent: 736
+Node: 833 Height: 0 Parent: 736
+Node: 736 Height: 2 Parent: 630
+Node: 630 Height: 3 Parent: 209
+Node: 209 Height: 4 Parent: 965
+Node: 1023 Height: 0 Parent: 1032
+Node: 1066 Height: 0 Parent: 1069
+Node: 1101 Height: 0 Parent: 1069
+Node: 1069 Height: 1 Parent: 1032
+Node: 1032 Height: 2 Parent: 1103
+Node: 1110 Height: 0 Parent: 1125
+Node: 1152 Height: 0 Parent: 1125
+Node: 1125 Height: 1 Parent: 1169
+Node: 1194 Height: 0 Parent: 1169
+Node: 1169 Height: 2 Parent: 1103
+Node: 1103 Height: 3 Parent: 1242
+Node: 1395 Height: 0 Parent: 1341
+Node: 1341 Height: 1 Parent: 1472
+Node: 1569 Height: 0 Parent: 1598
+Node: 1632 Height: 0 Parent: 1598
+Node: 1598 Height: 1 Parent: 1472
+Node: 1472 Height: 2 Parent: 1242
+Node: 1242 Height: 4 Parent: 1747
+Node: 1769 Height: 0 Parent: 1804
+Node: 1851 Height: 0 Parent: 1804
+Node: 1804 Height: 1 Parent: 1856
+Node: 1872 Height: 0 Parent: 1896
+Node: 1896 Height: 1 Parent: 1904
+Node: 1948 Height: 0 Parent: 1904
+Node: 1904 Height: 2 Parent: 1856
+Node: 1856 Height: 3 Parent: 1977
+Node: 2007 Height: 0 Parent: 2106
+Node: 2208 Height: 0 Parent: 2106
+Node: 2106 Height: 1 Parent: 2261
+Node: 2270 Height: 0 Parent: 2341
+Node: 2373 Height: 0 Parent: 2341
+Node: 2341 Height: 1 Parent: 2261
+Node: 2261 Height: 2 Parent: 1977
+Node: 1977 Height: 4 Parent: 1747
+Node: 1747 Height: 5 Parent: 965
+Node: 965 Height: 6 Parent: 2378
+Node: 2408 Height: 0 Parent: 2459
+Node: 2575 Height: 0 Parent: 2459
+Node: 2459 Height: 1 Parent: 2604
+Node: 2626 Height: 0 Parent: 2646
+Node: 2646 Height: 1 Parent: 2604
+Node: 2604 Height: 2 Parent: 2711
+Node: 2792 Height: 0 Parent: 2791
+Node: 2791 Height: 1 Parent: 2797
+Node: 2934 Height: 0 Parent: 2892
+Node: 2892 Height: 1 Parent: 3043
+Node: 3108 Height: 0 Parent: 3253
+Node: 3253 Height: 1 Parent: 3043
+Node: 3043 Height: 2 Parent: 2797
+Node: 2797 Height: 3 Parent: 2711
+Node: 2711 Height: 4 Parent: 3303
+Node: 3353 Height: 0 Parent: 3374
+Node: 3409 Height: 0 Parent: 3374
+Node: 3374 Height: 1 Parent: 3434
+Node: 3636 Height: 0 Parent: 3471
+Node: 3471 Height: 1 Parent: 3434
+Node: 3434 Height: 2 Parent: 3638
+Node: 3744 Height: 0 Parent: 3767
+Node: 3791 Height: 0 Parent: 3767
+Node: 3767 Height: 1 Parent: 3871
+Node: 3881 Height: 0 Parent: 3885
+Node: 3885 Height: 1 Parent: 3871
+Node: 3871 Height: 2 Parent: 3638
+Node: 3638 Height: 3 Parent: 3303
+Node: 3303 Height: 5 Parent: 3945
+Node: 4063 Height: 0 Parent: 4024
+Node: 4024 Height: 1 Parent: 4072
+Node: 4073 Height: 0 Parent: 4072
+Node: 4072 Height: 2 Parent: 4095
+Node: 4183 Height: 0 Parent: 4325
+Node: 4372 Height: 0 Parent: 4325
+Node: 4325 Height: 1 Parent: 4095
+Node: 4095 Height: 3 Parent: 4402
+Node: 4414 Height: 0 Parent: 4433
+Node: 4507 Height: 0 Parent: 4612
+Node: 4612 Height: 1 Parent: 4433
+Node: 4433 Height: 2 Parent: 4689
+Node: 4724 Height: 0 Parent: 4774
+Node: 4774 Height: 1 Parent: 4833
+Node: 4858 Height: 0 Parent: 4833
+Node: 4833 Height: 2 Parent: 4689
+Node: 4689 Height: 3 Parent: 4402
+Node: 4402 Height: 4 Parent: 4909
+Node: 4916 Height: 0 Parent: 4925
+Node: 4925 Height: 1 Parent: 4990
+Node: 5060 Height: 0 Parent: 5030
+Node: 5030 Height: 1 Parent: 5092
+Node: 5118 Height: 0 Parent: 5092
+Node: 5092 Height: 2 Parent: 4990
+Node: 4990 Height: 3 Parent: 5123
+Node: 5403 Height: 0 Parent: 5299
+Node: 5299 Height: 1 Parent: 5430
+Node: 5555 Height: 0 Parent: 5489
+Node: 5489 Height: 1 Parent: 5658
+Node: 5751 Height: 0 Parent: 5658
+Node: 5658 Height: 2 Parent: 5430
+Node: 5430 Height: 3 Parent: 5123
+Node: 5123 Height: 4 Parent: 4909
+Node: 4909 Height: 5 Parent: 3945
+Node: 3945 Height: 6 Parent: 2378
+Node: 2378 Height: 7 Parent: 5773
+Node: 5883 Height: 0 Parent: 5960
+Node: 6022 Height: 0 Parent: 5960
+Node: 5960 Height: 1 Parent: 6126
+Node: 6216 Height: 0 Parent: 6171
+Node: 6171 Height: 1 Parent: 6126
+Node: 6126 Height: 2 Parent: 6285
+Node: 6286 Height: 0 Parent: 6342
+Node: 6367 Height: 0 Parent: 6369
+Node: 6369 Height: 1 Parent: 6342
+Node: 6342 Height: 2 Parent: 6285
+Node: 6285 Height: 3 Parent: 6484
+Node: 6673 Height: 0 Parent: 6540
+Node: 6540 Height: 1 Parent: 6803
+Node: 6827 Height: 0 Parent: 6803
+Node: 6803 Height: 2 Parent: 6850
+Node: 6945 Height: 0 Parent: 6946
+Node: 6978 Height: 0 Parent: 7058
+Node: 7058 Height: 1 Parent: 6946
+Node: 6946 Height: 2 Parent: 6850
+Node: 6850 Height: 3 Parent: 6484
+Node: 6484 Height: 4 Parent: 7092
+Node: 7183 Height: 0 Parent: 7197
+Node: 7225 Height: 0 Parent: 7197
+Node: 7197 Height: 1 Parent: 7259
+Node: 7361 Height: 0 Parent: 7259
+Node: 7259 Height: 2 Parent: 7401
+Node: 7488 Height: 0 Parent: 7496
+Node: 7546 Height: 0 Parent: 7496
+Node: 7496 Height: 1 Parent: 7567
+Node: 7568 Height: 0 Parent: 7577
+Node: 7597 Height: 0 Parent: 7577
+Node: 7577 Height: 1 Parent: 7567
+Node: 7567 Height: 2 Parent: 7401
+Node: 7401 Height: 3 Parent: 7092
+Node: 7092 Height: 5 Parent: 7815
+Node: 8050 Height: 0 Parent: 7907
+Node: 7907 Height: 1 Parent: 8069
+Node: 8098 Height: 0 Parent: 8111
+Node: 8195 Height: 0 Parent: 8111
+Node: 8111 Height: 1 Parent: 8069
+Node: 8069 Height: 2 Parent: 8229
+Node: 8356 Height: 0 Parent: 8533
+Node: 8619 Height: 0 Parent: 8586
+Node: 8586 Height: 1 Parent: 8533
+Node: 8533 Height: 2 Parent: 8229
+Node: 8229 Height: 3 Parent: 8705
+Node: 8726 Height: 0 Parent: 8777
+Node: 8777 Height: 1 Parent: 8943
+Node: 9067 Height: 0 Parent: 9075
+Node: 9075 Height: 1 Parent: 8943
+Node: 8943 Height: 2 Parent: 9080
+Node: 9086 Height: 0 Parent: 9113
+Node: 9113 Height: 1 Parent: 9171
+Node: 9173 Height: 0 Parent: 9181
+Node: 9181 Height: 1 Parent: 9171
+Node: 9171 Height: 2 Parent: 9080
+Node: 9080 Height: 3 Parent: 8705
+Node: 8705 Height: 4 Parent: 9192
+Node: 9218 Height: 0 Parent: 9225
+Node: 9225 Height: 1 Parent: 9259
+Node: 9266 Height: 0 Parent: 9336
+Node: 9345 Height: 0 Parent: 9336
+Node: 9336 Height: 1 Parent: 9259
+Node: 9259 Height: 2 Parent: 9465
+Node: 9496 Height: 0 Parent: 9517
+Node: 9517 Height: 1 Parent: 9553
+Node: 9591 Height: 0 Parent: 9553
+Node: 9553 Height: 2 Parent: 9465
+Node: 9465 Height: 3 Parent: 9631
+Node: 9853 Height: 0 Parent: 9804
+Node: 9804 Height: 1 Parent: 9923
+Node: 9974 Height: 0 Parent: 9972
+Node: 9972 Height: 1 Parent: 9975
+Node: 9988 Height: 0 Parent: 9977
+Node: 9977 Height: 1 Parent: 9975
+Node: 9975 Height: 2 Parent: 9923
+Node: 9923 Height: 3 Parent: 9631
+Node: 9631 Height: 4 Parent: 9192
+Node: 9192 Height: 5 Parent: 7815
+Node: 7815 Height: 6 Parent: 5773
+Node: 5773 Height: 8 Parent: 0
